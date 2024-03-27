@@ -247,9 +247,14 @@ select[name=gender] {
     background-color: rgb(44, 179, 179);
 }
 
-.img-port img {
+.img-port {
     width: 900px;
     border-radius: 20px;
+    overflow: hidden;
+}
+
+.img-port img {
+    width: 100%;
 }
 
 .card-port, .card-port-3 {
@@ -262,9 +267,14 @@ select[name=gender] {
     padding: 8px;
 }
 
-.img-port-3 img{
+.img-port-3 {
     width: 290px;
     border-radius: 20px;
+    overflow: hidden;
+}
+
+.img-port-3 img{
+    width: 100%;
 }
 
 .content-port-3 {
