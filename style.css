@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+    color: #333132;
+}
+
+a, p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+h1, h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    width: 800px;
+    margin: auto;
+}
+
+.img-jeng {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.img-jeng img {
+    width: 100%;
+}
+
+.fname {
+    margin-left: 40px;
+}
+
+.fname h1 {
+    font-size: 75px;
+    margin: 5px 0;
+    padding: 0;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.1;
+    letter-spacing: 10px;
+}
+
+.fname p {
+    font-size: 16px;
+}
+
+.navbar {
+    text-align: center;
+    border-bottom: 1px solid #333132;
+    border-top: 1px solid #333132;
+    padding: 4px;
+    font-size: 16px;
+}
+
+.navbar a {
+    padding: 8px;
+    text-decoration: none;
+    color: #333132;
+    margin: 0 20px;
+    transition: all 0.2s;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    color: darkcyan;
+    transform: scale(1.15);
+}
+
+.content-personal-skill {
+    display: flex;
+    padding: 40px;
+}
+
+
+.personal-info {
+    width: 320px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #333132;
+}
+
+.info {
+    display: flex;
+    height: 40px;
+    align-items: center;
+}
+
+.info svg {
+    width: 50px;
+}
+
+.skills ul {
+    padding-left: 30px;
+}
+
+.skills li {
+    height: 30px;
+}
+
+.content-head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.content-head svg{
+    width: 70px;
+}
+
+table{
+    border-collapse: collapse;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+td, th {
+    border-bottom: 1px solid #333132;
+}
+
+.table-education th {
+    padding: 8px;
+}
+
+table {
+    margin: auto;
+    width: 700px;
+}
+
+tr {
+    height: 40px;
+}
+
+.last-table {
+    border-bottom: 0;
+}
+
+.line-left {
+    border-left: 1px solid #333132;
+}
+
+.text-al{
+    text-align: left;
+    padding: 15px;
+}
+
+.table {
+    border: 1px solid #333132;
+    border-radius: 20px;
+    padding: 5px;
+    margin: auto;
+    width: 710px;
+}
+
+.table-left {
+    text-align: left;
+}
+
+.container-form {
+    width: 550px;
+    margin: auto;
+    padding: 35px 50px;
+    border-radius: 30px;
+    border: 1px solid #333132;
+}
+
+input[type=text], select[name=gender] {
+    width: 100%;
+    border: 0;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 30px;
+    background-color: rgb(206, 215, 215);
+}
+
+input[type=text]:focus, select[name=gender]:focus {
+    outline: none;
+    border: 1px solid darkcyan;
+}
+
+select[name=gender] {
+    height: 30px;
+}
+
+.form-contact {
+    margin-bottom: 15px;
+}
+
+.label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.text-area {
+    width: 100%;
+    border-radius: 20px;
+    border: 0;
+    background-color: rgb(206, 215, 215);
+    outline: none;
+    padding: 12px;
+    font-size: 16px;
+}
+
+.text-area {
+    border: 1px solid darkcyan;
+}
+
+.btn-submit {
+    padding: 8px 16px;
+    background-color: darkcyan;
+    color: #eee;
+    border: 0;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.btn-submit:hover {
+    background-color: rgb(44, 179, 179);
+}
